@@ -1,7 +1,9 @@
 # House-Prices-Regression-Final-Project
 Final Project for DATA522 -Predict sales prices and practice feature engineering, RFs, and gradient boosting: https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
 This project focuses on developing a predictive model for estimating housing sale prices using the Ames Housing dataset provided by Kaggle. The dataset contains 79 explanatory variables describing various attributes of residential homes, including lot size, year built, quality ratings, neighborhood, and more. Predicting housing prices is a highly relevant problem in real estate analytics and serves as an excellent opportunity to explore advanced regression models and feature engineering techniques. The objective is to apply machine learning methods to accurately predict house prices and evaluate model performance using Root Mean Square Error (RMSE), which serves as the competition’s scoring metric.
+
 Strategy: 
+
 Data Exploration & Cleaning:
     Understand data structure and handle missing values using imputation or removal.
     Visualize feature distributions and check for outliers.

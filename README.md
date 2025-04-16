@@ -3,7 +3,9 @@
 **Repository Owner:** Meagan O'Briant  
 [🔗 Kaggle Competition](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
 
----
+--- 
+
+I will update this README file as necessary. 
 
 ## Project Overview  
 This project aims to build predictive models to estimate residential housing prices using the Ames Housing dataset provided by Kaggle. The competition serves as a practical challenge in regression analysis, feature engineering, and statistical modeling using R.

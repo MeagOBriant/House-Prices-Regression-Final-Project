@@ -1,31 +1,60 @@
-**THIS IS MY ABSTRACT PAPER FOR SUBMISSION. DO NOT COPY. YOU CAN USE IT TO BUILD YOUR OWN ABSTRACT AND MAKE SURE YOU INCLUDE OUR TEAMMATES, BUT DO NOT DIRECTLY COPY MY ABSTRACT**
+# House Prices - Advanced Regression Techniques  
+**DATA 522 Term Project – University of North America**  
+**Repository Owner:** Meagan O'Briant  
+[🔗 Kaggle Competition](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
 
-# House-Prices-Regression-Final-Project
-Final Project for DATA522 -Predict sales prices and practice feature engineering, RFs, and gradient boosting: https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
-This project focuses on developing a predictive model for estimating housing sale prices using the Ames Housing dataset provided by Kaggle. The dataset contains 79 explanatory variables describing various attributes of residential homes, including lot size, year built, quality ratings, neighborhood, and more. Predicting housing prices is a highly relevant problem in real estate analytics and serves as an excellent opportunity to explore advanced regression models and feature engineering techniques. The objective is to apply machine learning methods to accurately predict house prices and evaluate model performance using Root Mean Square Error (RMSE), which serves as the competition’s scoring metric.
+---
 
-Strategy: 
+## Project Overview  
+This project aims to build predictive models to estimate residential housing prices using the Ames Housing dataset provided by Kaggle. The competition serves as a practical challenge in regression analysis, feature engineering, and statistical modeling using R.
 
-Data Exploration & Cleaning:
-    Understand data structure and handle missing values using imputation or removal.
-    Visualize feature distributions and check for outliers.
+---
 
-Feature Engineering:
-    Transform skewed numerical features (e.g., log transformation).
-    Create new interaction terms or categorical binning if necessary.
-    One-hot encode categorical variables.
+## Objectives  
+- Explore and clean the housing dataset  
+- Engineer relevant features to improve model accuracy  
+- Apply regression models using R (Linear Regression, Random Forest, Gradient Boosting)  
+- Evaluate performance using RMSE (Root Mean Square Error)  
+- Visualize insights using clear, professional graphs  
 
-Modeling Techniques:
-    Begin with baseline Linear Regression to establish a reference.
-    Apply more advanced models such as Random Forest, XGBoost, and LightGBM.
-    Use cross-validation to tune hyperparameters and avoid overfitting.
+---
 
-Model Evaluation:
-    Compare models using cross-validated RMSE scores.
-    Select the best-performing model based on validation performance.
+## Tools & Libraries  
+- **RStudio**  
+- `tidyverse`, `ggplot2`, `dplyr`, `caret`, `randomForest`, `xgboost`  
+- Git & GitHub for version control  
 
-Tools:
-    Python (Jupyter Notebook), Scikit-learn, XGBoost, Pandas, NumPy, Matplotlib/Seaborn for EDA.
-Version Control & Collaboration:
+---
 
-    Project files will be maintained on GitHub (to be linked in final submission).
+## Repository Structure  
+
+House-Prices-Regression-Final-Project/ │ ├── data/ # Raw and cleaned datasets (.csv) ├── scripts/ # R scripts for EDA, modeling, and evaluation ├── visuals/ # Plots and charts ├── outputs/ # Model results and predictions ├── README.md # This file └── final_report/ # PowerPoint or markdown summaries
+
+
+---
+
+## How to Run the Project  
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MeagOBriant/House-Prices-Regression-Final-Project.git
+   cd House-Prices-Regression-Final-Project
+
+    Open the .R or .Rmd files in RStudio
+
+    Run each section:
+
+        Data loading and cleaning
+
+        Feature engineering
+
+        Model building
+
+        Model evaluation and visualization
+
+Model Performance
+
+(To be completed during the analysis phase)
+
+    Best Model: TBD
+
+    Validation RMSE: TBD

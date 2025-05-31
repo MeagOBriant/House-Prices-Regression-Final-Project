@@ -1,0 +1,16 @@
+# R specific
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Data files
+# *.csv
+
+# Office temp files
+~$*.docx
+~$*.xlsx
+
+# OS specific
+.DS_Store
+Thumbs.db
